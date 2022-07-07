@@ -1,0 +1,30 @@
+<div id = "mobile" class = "flex c">
+    <div class = "home flex c">
+        <a href = "#" id = "burger" class = "flex c mid-align">
+            <div class = "burger-comp"></div>
+            <div class = "burger-comp"></div>
+            <div class = "burger-comp"></div>
+        </a>
+
+        <!-- Job categories -->
+        <h1>Job Categories</h1>
+        <%- include("widgets/job-categories.ejs") %>
+
+        <!-- Ongoing job listings -->
+        <h1>Your Ongoing Job Listings</h1>
+        <%- include("widgets/job-listings.ejs") %>
+
+        <!-- Create a new listing -->
+        <h1>Your Posted Requests</h1>
+        <%- include("widgets/job-request.ejs") %>
+
+        <!-- Earnings -->
+        <h1>Your Earnings</h1>
+        <%- include("widgets/earnings-chart.ejs") %>
+
+        <!-- Transaction history -->
+        <h1>Your Transaction History</h1>
+        <%- include("widgets/transaction-history.ejs") %>
+
+    </div>
+</div>
